@@ -18,16 +18,3 @@ RestoRecommender leverages the power of artificial intelligence (AI) to suggest 
 * **Answer Generation (`experiments.ipynb`):**
   - This Jupyter Notebook utilizes the `questions.txt` file containing user queries to generate corresponding answers and saves them in the `Question-Answer.txt` file. It allows for the inclusion of additional user questions for enhanced personalization.
 
-* **Web User Interface (`web-UI` folder):**
-  - This folder houses the necessary files to create a web-based user interface (UI) that facilitates interaction with the RestoRecommender chatbot. It employs the Flask framework.
-  - To launch the UI:
-      1. Navigate to the `web-UI` directory in your terminal.
-      2. Run the command: `python app.py`
-      3. Open your web browser and visit the following URL: `http://127.0.0.1:5000/`
-
-**References:**
-- https://pypi.org/project/googlemaps/
-- https://github.com/googlemaps/google-maps-services-python/blob/master/googlemaps/places.py
-- https://python.langchain.com/v0.1/docs/get_started/introduction
-- https://ai.google.dev/gemini-api/docs
-- https://github.com/facebookresearch/faiss
